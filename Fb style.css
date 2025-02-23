@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #efeded;
+}
+.main{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+}
+/* .main .cnt1{
+    background-color: aqua;
+} */
+.main .container{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main .container .about{
+    width:600px ;
+    margin-left: 100px;
+}
+.main .container .logo{
+    margin-left: -140px;
+    margin-bottom: 25px;
+}
+.main .container .logo img{
+    width: 360px;
+   
+}
+
+.main .container .about span{
+    font-size: 32px;
+    letter-spacing: 1px
+}
+.main .container .log-in-panel{
+    background-color: #f5efef;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 11px 1px rgb(167, 165, 165);
+}
+.main .container .log-in-panel input{
+    width: 350px;
+    height: 43px;
+    padding-left: 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid #c5c3c0;
+    outline: none;
+    margin: 0px auto;
+}
+.main .container .log-in-panel input:hover{
+    border: 1px solid #007bff;
+}
+.main .container .log-in-panel .loginbtn{
+    color: #fff;
+    font-weight: bolder;
+    font-weight: 900;
+    font-size: medium;
+    border: none;
+    outline: none;
+    background-color: #007bff;
+}
+.main .container .log-in-panel .loginbtn:hover{
+    background-color: #004cff;
+    transition: ease-in 0.1;
+}
+.main .container .log-in-panel:checked ~ .loginbtn{
+    background-color: #14b914;
+}
+.main .container .log-in-panel p {
+    text-align: center;
+    background-color: transparent;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.main .container .log-in-panel p a{
+    text-decoration: none;
+    color: #007bff;
+}
+.main .container .log-in-panel p a:hover{
+    text-decoration: underline;
+}
+.main .container .log-in-panel .create{
+    width: 50%;
+    height: 43px;
+    border-radius: 7px;
+    color: #ffffff;
+    font-weight: 900;
+    font-weight: bolder;
+    outline: none;
+    border: none;
+    background-color: #14b914;
+    margin: 30px auto;
+    margin-bottom: 5px;
+}
+
+@media only screen and (max-width:767px){
+.main{
+    flex-direction: column;
+
+}
+.man .container{
+    flex-basis: 100%;
+}
+}
