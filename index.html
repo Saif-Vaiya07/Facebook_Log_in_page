@@ -19,15 +19,25 @@
             <div class="about"><span>Connect with friends and the world around you on Facebook.</span></div>
         </div>
         <div class="container cnt2">
-            <div class="log-in-panel">
-                <input type="text" class="inpoint" placeholder="E-mail or phone number"><br>
-                <input type="text" class="inpoint" placeholder="Password"><br>
-                <input type="button" class="loginbtn" value="Login"><br>
+            <form method="post" action="" class="log-in-panel">
+                <input type="text" class="inpoint" id="userin" placeholder="E-mail or phone number">
+                <br>
+
+                <input type="text" class="inpoint" id="userpass" placeholder="Password">
+                <br>
+
+                <input type="submit" class="loginbtn" value="Login">
+                <br>
+
+
+                <h4 id="validation"></h4>
                 <p><a href="#">Forgot password?</a></p>
                 <hr>
+                
                 <button class="create">Create new account</button>
-            </div>
+            </form>
         </div>
     </section>
+    <script src="imdex.js"></script>
 </body>
 </html>

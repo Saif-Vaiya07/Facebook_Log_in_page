@@ -70,6 +70,14 @@
     outline: none;
     background-color: #007bff;
 }
+.main .container .log-in-panel #validation {
+    /* color: #D44646; */
+    text-align: center;
+    font-size: 11px;
+    margin-top: -9px;
+    margin-bottom: 5px;
+    display: none;
+}
 .main .container .log-in-panel .loginbtn:hover{
     background-color: #004cff;
     transition: ease-in 0.1;
